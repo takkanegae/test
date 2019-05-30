@@ -13,7 +13,7 @@ defaults: &defaults
     TERM: dumb
 version: 2
 jobs:
-  setup:
+  build:
     <<: *defaults
     steps:
     - attach_workspace:
