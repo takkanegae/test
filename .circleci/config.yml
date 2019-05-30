@@ -1,7 +1,9 @@
 version: 2.1
-jobs:
-  build:
-    steps:
-    - run:
-        name: install cloudSDK
-        command: echo "hoge"
+
+orbs:
+  hello: circleci/hello-build@0.0.7 # circleci/buildpack-deps Docker イメージを使います
+
+workflows:
+  "Hello Workflow":
+    jobs:
+    - hello/hello-build
