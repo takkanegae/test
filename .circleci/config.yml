@@ -21,6 +21,10 @@ jobs:
     - run:
         name: get common
         command: |
-          git clone "https://${GITHUB_ACCESS_TOKEN}:x-oauth-basic@github.com/Founder-Pro/founder-t1-account-batch.git"
           cd founder-t1-account-batch
           git checkout master
+    - run:
+        name: build batch-common
+        command: |
+          cd ~/project/account-common
+          mvn clean install -Dmaven.test.skip=true
