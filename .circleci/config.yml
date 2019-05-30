@@ -21,5 +21,5 @@ jobs:
     - run:
         name: get common
         command: |
-          git clone "https://46d1e6df0780c08cdd4d6203791f2c43dd046623:x-oauth-basic@github.com/Founder-Pro/founder-t1-account-batch.git"
+          git clone "https://3e098c9a5365bee38e3281b33ac045fb87b634fb:x-oauth-basic@github.com/Founder-Pro/founder-t1-account-batch.git"
           git checkout master
