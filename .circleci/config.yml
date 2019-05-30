@@ -1,9 +1,25 @@
-version: 2.1
-
-orbs:
-  hello: circleci/hello-build@0.0.7 # circleci/buildpack-deps Docker イメージを使います
-
-workflows:
-  "Hello Workflow":
-    jobs:
-    - hello/hello-build
+# Java Gradle CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-java/ for more details
+#
+defaults: &defaults
+  docker:
+  # specify the version you desire here
+  - image: circleci/openjdk:11-jdk
+  working_directory: ~
+  environment:
+    # Customize the JVM maximum heap limit
+    _JAVA_OPTIONS: "-Xms512m -Xmx1024m"
+    TERM: dumb
+version: 2
+jobs:
+  setup:
+    <<: *defaults
+    steps:
+    - attach_workspace:
+        at: .
+    - run:
+        name: get common
+        command: |
+          git clone "https://0714a19dfab6e842212e7799b9669e7ff2706c3c:x-oauth-basic@github.com/Founder-Pro/founder-t1-account-batch.git"
+          git checkout master

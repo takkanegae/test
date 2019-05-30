@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b08f372c-bb13-4aef-ae6a-e1407d5c2e69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hogehoge" beforeDir="false" afterPath="$PROJECT_DIR$/hogehoge" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +33,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="hogehoge" value="2" />
-          <entry key="yml" value="22" />
+          <entry key="yml" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="YAML" value="22" />
+          <entry key="YAML" value="77" />
         </counts>
       </usages-collector>
     </session>
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -90,11 +88,9 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="421" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="831" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -144,15 +140,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559193431248</updated>
-      <workItem from="1559193433213" duration="6191000" />
+      <workItem from="1559193433213" duration="9818000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6191000" />
+    <option name="totallyTimeSpent" value="9818000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="421" y="23" width="1440" height="831" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -161,7 +157,7 @@
       <window_info anchor="bottom" id="Docker" weight="0.32882273" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.59810555" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33734939" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -192,8 +188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
