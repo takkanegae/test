@@ -24,7 +24,7 @@ jobs:
           git clone "https://${GITHUB_ACCESS_TOKEN}:x-oauth-basic@github.com/Founder-Pro/founder-t1-account-batch.git"
           cd founder-t1-account-batch
           git checkout $CIRCLE_BRANCH
-          mv account-common ~/project/account-batch
+          mv account-common ~/project/account-common
     - run:
         name: build batch-common
         command: |
