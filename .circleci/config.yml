@@ -22,4 +22,3 @@ jobs:
         name: get common
         command: |
           git clone "https://${GITHUB_ACCESS_TOKEN}:x-oauth-basic@github.com/Founder-Pro/founder-t1-account-batch.git"
-          git checkout master
