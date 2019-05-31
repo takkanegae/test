@@ -1,0 +1,9 @@
+[submodule "ohmy"]
+	path = ohmy
+	url = https://takkanegae@github.com/Founder-Pro/founder-t1-ToneCommon.git
+[submodule "founder-t1-account-batch"]
+	path = founder-t1-account-batch
+	url = https://takkanegae@github.com/Founder-Pro/founder-t1-account-batch.git
+[submodule "lllll"]
+	path = lllll
+	url = https://takkanegae@github.com/Founder-Pro/founder-t1-account-batch.git
